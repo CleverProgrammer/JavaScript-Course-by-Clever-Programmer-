@@ -1,5 +1,5 @@
 //const myArrays = ["Loic","Mathis","Bricia","Eudes","Eleo","Aime","Chany","Christ","Ivan"];
-const arrayNumbers = [2,4,5,34,98,28,56];
+const numers = [2,4,5,34,98,28,56];
 //Let's use a For Loop to get all array's value
 
 // for(let i=0; i < myArrays.length; i++){
@@ -11,9 +11,16 @@ const arrayNumbers = [2,4,5,34,98,28,56];
 //for(const myArray of myArrays){
 //    console.log(myArray);
 //}
-let doubleOfArray = []
-//Let's get the double of this array
-for(const arrayNumber of arrayNumbers){
-    doubleOfArray.push(arrayNumber * 2);
+// let doubleOfArray = []
+// //Let's get the double of this array
+// for(const arrayNumber of arrayNumbers){
+//     doubleOfArray.push(arrayNumber * 2);
+// }
+// console.log(doubleOfArray);
+const letterCounter = () =>{
+    const phrase = "hey, can you go to the grocery store with me?"
+    for (letter of phrase){
+        console.log(letter);
+    }
 }
-console.log(doubleOfArray);
+console.log(letterCounter());
